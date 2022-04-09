@@ -28,6 +28,7 @@ const Header = () => {
           <NavLink href="/men">Men</NavLink>
           <NavLink href="/women">Women</NavLink>
           <NavLink href="/kids">Kids</NavLink>
+          <NavLink href="/kids">Womenz</NavLink>
           <NavLink href="/collections">Collections</NavLink>
         </Nav>
 
@@ -59,8 +60,10 @@ const Nav = styled.nav`
 
   @media ${QUERIES.laptopAndUp} {
     display: flex;
-    gap: 48px;
+    gap: clamp(24px, 2vw, 48px);
+
     margin: 0px 48px;
+    overflow-x: scroll;
   }
 `;
 

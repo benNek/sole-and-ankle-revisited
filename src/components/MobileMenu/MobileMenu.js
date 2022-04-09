@@ -6,8 +6,6 @@ import { DialogOverlay, DialogContent } from "@reach/dialog";
 import { COLORS, QUERIES } from "../../constants";
 
 import UnstyledButton from "../UnstyledButton";
-import Icon from "../Icon";
-import VisuallyHidden from "../VisuallyHidden";
 import { X } from "react-feather";
 
 const MobileMenu = ({ isOpen, onDismiss }) => {
