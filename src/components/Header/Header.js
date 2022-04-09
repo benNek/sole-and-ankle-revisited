@@ -34,7 +34,7 @@ const Header = () => {
         <MobileNav>
           <ShoppingBag />
           <Search />
-          <Menu />
+          <Menu onClick={() => setShowMobileMenu((state) => !state)} />
         </MobileNav>
       </MainHeader>
 
